@@ -1,0 +1,84 @@
+*{ /*siempre es bueno ponerle un margin o un font-size a la pagina*/
+    margin: 0;
+    font-size: 14px;
+}
+
+.card{ /*tarjetas*/
+    width: 22rem;
+    border: 1.3px solid lightgray;
+    margin-top: 0%;
+    margin-bottom: 5%;
+    
+}
+
+.card a{
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: .7rem;
+    font-weight: bold;
+}
+
+.card h5{
+    font-size: 30px;
+    text-align: left;
+    position: relative;
+    top:0%; 
+    margin-right: 5%;
+}
+
+
+.card-texto{
+    font-size: 15px;
+    text-align: left;
+    position: relative;
+    top:50%; 
+    margin-right: 5%;
+}
+
+#d-flex{
+    align-self: flex-end;
+}
+
+.d-flex p-2{
+    width: 30%;
+    height: 30%;
+}
+
+.container{
+    display:flex;
+}
+
+.padre{
+    width: 1350px;
+    height: 400px;
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    
+}
+
+.hijo1,.hijo2{
+    width: 675px;
+    height: 400px;
+}
+
+h4{
+    text-align: right;
+    padding-top: 30%;
+}
+
+.card-texto p{
+    text-align: right;
+    padding-top: 40%;
+    margin-top: 30%;
+}
+
+.col{
+    background-color: rgb(52, 45, 45);
+}
+
+.nav inferior{
+    display: flex;
+    ;
+}
